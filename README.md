@@ -19,6 +19,7 @@ We have implemented this assignment in two parts.
   viii. We trained our dataset on windows machine on cpu and hence it took very long to get done.
   
   ix. Datasets are uploaded in the folder "image_classification\CNN_image_classification\datasets".
+ 
  References : https://en.wikipedia.org/wiki/Convolutional_neural_network
 
 2. We did text classification with neural network.
