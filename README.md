@@ -22,4 +22,16 @@ We have implemented this assignment in two parts.
  
  References : https://en.wikipedia.org/wiki/Convolutional_neural_network
 
-2. We did text classification with neural network.
+2. We did text classification with neural network. for spam filetering
+
+1.We used the data set from the given wiki links that "ling spam data"(Ligustics data) set which has email spams with it
+2. Extracted all the text into a data frame and labeled it based on the file name (file name for each mail text file name contains "spm" if it is spam. we extracted for testing and verification
+3. Preprocessing. extarcted common words from spam data emails considered the common words with higher probability as features in the data frame
+4. added every word as a column as for column values added 1 if the word exists in the text ot 0 if not.
+5. used the this as numpy array of column values as input for our algorithm
+6. Classified based on the weights of output as Spam /Not spam
+
+Rferences :
+https://www.researchgate.net/publication/281452141_Spam_Detection_using_a_Neural_Network_Classifier
+https://en.wikipedia.org/wiki/Backpropagation
+
